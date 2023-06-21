@@ -13,7 +13,7 @@ body {
     border-radius: 50%;
 }
 .min-vh-50 {
-    height: 50vmin;
+    height: 60vmin;
 }
 
 /* seccion experiencia */
@@ -66,4 +66,12 @@ width: 40px;
 }
 .ul-personal li {
     list-style: none;
+}
+
+
+/* media queries */
+@media (max-width: 580px) {
+    .min-vh-50 {
+        height: 60vmax;
+    }
 }
