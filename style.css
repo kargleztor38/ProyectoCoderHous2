@@ -8,6 +8,11 @@ body {
     background-position: center;
     background-size: cover;
 }
+.header-barca {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/backgroun-barca.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .img-logo {
     width: 50px;
     border-radius: 50%;
