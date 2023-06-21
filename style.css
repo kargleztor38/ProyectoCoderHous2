@@ -1,0 +1,69 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #a9a9a9;
+}
+/* seccion header */
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/backgriund-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-logo {
+    width: 50px;
+    border-radius: 50%;
+}
+.min-vh-50 {
+    height: 50vmin;
+}
+
+/* seccion experiencia */
+.custom-comment {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.custom-p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.card-img-filter {
+    filter: brightness(0.6);
+}
+
+/* seccion comentario */
+.comoentario {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 128, 128, 0.6)), url(img/bg-comentario.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.d-item {
+    height: 700px;
+}
+.c-img {
+    height: auto;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/* formulario */
+.f-personal {
+    background-color: #a9a9a9;
+}
+.i-pesonal {
+    display: flex;
+    justify-content: space-between;
+}
+.i-pesonal div {
+    width: 49%;
+}
+/* footer */
+.p-personal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.mi-lista img {
+width: 40px;
+}
+.ul-personal li {
+    list-style: none;
+}
