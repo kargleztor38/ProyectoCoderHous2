@@ -2,36 +2,44 @@ body {
     font-family: 'Cabin', sans-serif;
     background-color: #a9a9a9;
 }
+
 /* seccion header */
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/bg-image.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .header-barca {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/bg-barca.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .header-pesca {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/bg-pesca.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .header-turismo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/bg-turismo.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .header-nosotros {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/equipo1.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .img-logo {
     width: 50px;
     border-radius: 50%;
+    padding-right: 8px;
 }
+
 .min-vh-50 {
     height: 50vmin;
 }
@@ -42,10 +50,12 @@ body {
     font-weight: 900;
     margin-top: 20px;
 }
+
 .custom-p {
     font-size: 18px;
     margin-top: 30px;
 }
+
 .card-img-filter {
     filter: brightness(0.6);
 }
@@ -60,6 +70,7 @@ body {
 .d-item {
     height: 700px;
 }
+
 .c-img {
     height: auto;
     object-fit: cover;
@@ -70,20 +81,25 @@ body {
 .f-personal {
     background-color: #a9a9a9;
 }
+
 .i-pesonal {
     display: flex;
     justify-content: space-between;
 }
+
 .i-pesonal div {
     width: 49%;
 }
+
 /* footer */
 .p-personal {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .mi-lista img {
-width: 40px;
+    width: 40px;
 }
+
 .ul-personal li {
     list-style: none;
 }
@@ -92,7 +108,9 @@ width: 40px;
 .img-barcas {
     width: 100%;
     object-fit: cover;
+    box-shadow: 15px 15px 30px rgba(46, 45, 45, 0.8);
 }
+
 .main {
     background-color: #a9a9a9;
 }
