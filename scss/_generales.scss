@@ -1,35 +1,15 @@
+$color-base: #a9a9a9;
+
+
+// Estilos Generales
+
 body {
     font-family: 'Cabin', sans-serif;
-    background-color: #a9a9a9;
+    background-color: $color-base;
 }
 
-/* seccion header */
+// Generales del header
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/bg-image.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.header-barca {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/bg-barca.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.header-pesca {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/bg-pesca.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.header-turismo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/bg-turismo.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.header-nosotros {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(./img/equipo1.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -44,7 +24,8 @@ body {
     height: 50vmin;
 }
 
-/* seccion experiencia */
+// Seccion experiencia
+
 .custom-comment {
     font-size: 48px;
     font-weight: 900;
@@ -60,11 +41,10 @@ body {
     filter: brightness(0.6);
 }
 
-/* seccion comentario */
+// Seccion comentario
+
 .comoentario {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 128, 128, 0.6)), url(img/bg-comentario.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 128, 128, 0.6)), url(../img/bg-comentario.jpg);
 }
 
 .d-item {
