@@ -3,51 +3,6 @@ body {
   background-color: #a9a9a9;
 }
 
-.header {
-  background-position: center;
-  background-size: cover;
-}
-
-.img-logo {
-  width: 50px;
-  border-radius: 50%;
-  padding-right: 8px;
-}
-
-.min-vh-50 {
-  height: 50vmin;
-}
-
-.custom-comment {
-  font-size: 48px;
-  font-weight: 900;
-  margin-top: 20px;
-}
-
-.custom-p {
-  font-size: 18px;
-  margin-top: 30px;
-}
-
-.card-img-filter {
-  filter: brightness(0.6);
-}
-
-.comoentario {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 128, 128, 0.6)), url(../img/bg-comentario.jpg);
-}
-
-.d-item {
-  height: 700px;
-}
-
-.c-img {
-  height: auto;
-  object-fit: cover;
-  filter: brightness(0.6);
-}
-
-/* formulario */
 .linea-final {
   text-align: end;
 }
@@ -65,7 +20,6 @@ body {
   width: 49%;
 }
 
-/* footer */
 .p-personal {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -78,18 +32,12 @@ body {
   list-style: none;
 }
 
-/* seccion barcas */
 .img-barcas {
   width: 100%;
   object-fit: cover;
   box-shadow: 15px 15px 30px rgba(46, 45, 45, 0.8);
 }
 
-.main {
-  background-color: #a9a9a9;
-}
-
-/* media queries */
 @media (max-width: 580px) {
   .min-vh-50 {
     height: 60vmax;
@@ -103,24 +51,72 @@ body {
     box-shadow: 5px 30px 30px rgba(46, 45, 45, 0.8);
   }
 }
+.custom-comment {
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.custom-p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.card-img-filter {
+  filter: brightness(0.6);
+}
+
+.comentario {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 128, 128, 0.6)), url(../img/bg-comentario.jpg);
+}
+
+.d-item {
+  height: 700px;
+}
+
+.c-img {
+  height: auto;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.main {
+  background-color: #a9a9a9;
+}
+
+.header, .h-nosotros, .h-turismo, .h-pesca, .h-barca, .h-index {
+  background-position: center;
+  background-size: cover;
+}
+
 .h-index {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(../img/bg-image.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6509803922), rgba(128, 128, 128, 0.6549019608)), url(../img/bg-image.jpg);
 }
 
 .h-barca {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(../img/bg-barca.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6509803922), rgba(128, 128, 128, 0.6549019608)), url(../img/bg-barca.jpg);
 }
 
 .h-pesca {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(../img/bg-pesca.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6509803922), rgba(128, 128, 128, 0.6549019608)), url(../img/bg-pesca.jpg);
 }
 
 .h-turismo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(../img/bg-turismo.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6509803922), rgba(128, 128, 128, 0.6549019608)), url(../img/bg-turismo.jpg);
 }
 
 .h-nosotros {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(128, 128, 128, 0.656)), url(../img/equipo1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6509803922), rgba(128, 128, 128, 0.6549019608)), url(../img/equipo1.jpg);
+}
+
+.img-logo {
+  width: 50px;
+  border-radius: 50%;
+  padding-right: 8px;
+}
+
+.min-vh-50 {
+  height: 50vmin;
 }
 
 /*# sourceMappingURL=style.css.map */

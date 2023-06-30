@@ -1,69 +1,18 @@
-$color-base: #a9a9a9;
-
-
-// Estilos Generales
+// ESTILOS GENERALES
 
 body {
     font-family: 'Cabin', sans-serif;
-    background-color: $color-base;
+    background-color: $basic-color;
 }
 
-// Generales del header
-.header {
-    background-position: center;
-    background-size: cover;
-}
+// FORMULARIO
 
-.img-logo {
-    width: 50px;
-    border-radius: 50%;
-    padding-right: 8px;
-}
-
-.min-vh-50 {
-    height: 50vmin;
-}
-
-// Seccion experiencia
-
-.custom-comment {
-    font-size: 48px;
-    font-weight: 900;
-    margin-top: 20px;
-}
-
-.custom-p {
-    font-size: 18px;
-    margin-top: 30px;
-}
-
-.card-img-filter {
-    filter: brightness(0.6);
-}
-
-// Seccion comentario
-
-.comoentario {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 128, 128, 0.6)), url(../img/bg-comentario.jpg);
-}
-
-.d-item {
-    height: 700px;
-}
-
-.c-img {
-    height: auto;
-    object-fit: cover;
-    filter: brightness(0.6);
-}
-
-/* formulario */
 .linea-final {
     text-align: end;
 }
 
 .f-personal {
-    background-color: #a9a9a9;
+    background-color: $basic-color;
 }
 
 .i-pesonal {
@@ -75,7 +24,8 @@ body {
     width: 49%;
 }
 
-/* footer */
+// FOOTER
+
 .p-personal {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -88,18 +38,16 @@ body {
     list-style: none;
 }
 
-/* seccion barcas */
+// SECCION IMAGENES GENERALES ( NO INDEX )
+
 .img-barcas {
     width: 100%;
     object-fit: cover;
     box-shadow: 15px 15px 30px rgba(46, 45, 45, 0.8);
 }
 
-.main {
-    background-color: #a9a9a9;
-}
+// RESPONCIVE
 
-/* media queries */
 @media (max-width: 580px) {
     .min-vh-50 {
         height: 60vmax;
