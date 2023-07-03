@@ -1,4 +1,3 @@
-
 // SECCION EXPRIENCIA
 
 .custom-comment {
@@ -19,7 +18,7 @@
 // SECCION COMENTARIO
 
 .comentario {
-    background-image: linear-gradient(#00000099, rgba(128, 128, 128, 0.6)), url(../img/bg-comentario.jpg);
+    background-image: linear-gradient($gradient-uno, $gradient-dos), url(../img/bg-comentario.jpg);
 }
 
 .d-item {

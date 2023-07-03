@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Cabin", sans-serif;
   background-color: #a9a9a9;
@@ -38,11 +43,24 @@ body {
   box-shadow: 15px 15px 30px rgba(46, 45, 45, 0.8);
 }
 
-@media (max-width: 580px) {
-  .min-vh-50 {
-    height: 60vmax;
-  }
+.navbar-container {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+  transition: 1s;
 }
+.navbar-container a {
+  letter-spacing: 3px;
+}
+
+.efecto {
+  background-color: white;
+}
+
 @media (max-width: 768px) {
   .centrado {
     text-align: center;
@@ -51,6 +69,58 @@ body {
     box-shadow: 5px 30px 30px rgba(46, 45, 45, 0.8);
   }
 }
+.precentacion {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin: 30px 10px;
+}
+.precentacion .titulo {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.precentacion .descripcion {
+  font-size: 20px;
+}
+
+.card-founde {
+  padding: 0;
+  width: 60%;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.card-founde img {
+  width: 45%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-left: 0;
+  border-radius: 20px 0 0 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6509803922);
+}
+.card-founde .card-text {
+  padding: 25px;
+  text-align: start;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6509803922);
+  background-color: #434343;
+  border-radius: 0 20px 20px 0;
+  margin-left: -30px;
+  text-align: center;
+}
+.card-founde .card-h3 {
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.card-founde .card-p {
+  letter-spacing: 0.8px;
+  color: #ffffff;
+}
+
 .custom-comment {
   font-size: 48px;
   font-weight: 900;
@@ -67,7 +137,7 @@ body {
 }
 
 .comentario {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(128, 128, 128, 0.6)), url(../img/bg-comentario.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6509803922), rgba(128, 128, 128, 0.6549019608)), url(../img/bg-comentario.jpg);
 }
 
 .d-item {
@@ -117,6 +187,12 @@ body {
 
 .min-vh-50 {
   height: 50vmin;
+}
+
+@media (max-width: 580px) {
+  .min-vh-50 {
+    height: 60vmax;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

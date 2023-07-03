@@ -1,7 +1,9 @@
 .header {
+    
     background-position: center;
     background-size: cover;
 }
+
 
 .h-index {
     @extend .header;
@@ -36,4 +38,12 @@
 
 .min-vh-50 {
     height: 50vmin;
+}
+
+// RESPONCIVE
+
+@media (max-width: 580px) {
+    .min-vh-50 {
+        height: 60vmax;
+    }
 }

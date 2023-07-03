@@ -1,5 +1,10 @@
 // ESTILOS GENERALES
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Cabin', sans-serif;
     background-color: $basic-color;
@@ -46,20 +51,3 @@ body {
     box-shadow: 15px 15px 30px rgba(46, 45, 45, 0.8);
 }
 
-// RESPONCIVE
-
-@media (max-width: 580px) {
-    .min-vh-50 {
-        height: 60vmax;
-    }
-}
-
-@media (max-width: 768px) {
-    .centrado {
-        text-align: center;
-    }
-    
-    .img-barcas {
-        box-shadow: 5px 30px 30px rgba(46, 45, 45, 0.8);
-    }
-}
