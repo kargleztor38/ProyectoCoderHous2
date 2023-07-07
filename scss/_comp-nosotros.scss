@@ -1,54 +1,103 @@
-// seccion directiva
-.precentacion {
-    width: 100%;
-    height: 150px;
-    text-align: center;
-    margin: 30px 10px;
+%box-flexible {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+
+.main-section {
+    padding: 30px 0;
+
+    .contenedor {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 30px;
+
+        .flex-card {
+            display: flex;
+            gap: 40px;
+            margin-bottom: 30px;
+
+            &-box {
+                background: $bg-card;
+                color: $text-color-card;
+                flex: 1;
+                padding: 20px;
+                border-radius: 20px;
+
+                .box-name {
+                    @extend %box-flexible;
+                }
+
+                img {
+                    width: 120px;
+                    border-radius: 20px;
+                }
+
+                .nombre {
+                    text-transform: uppercase;
+                    color: $titulo-card;
+                }
+
+                .cargo {
+                    font-size: 25px;
+                    font-weight: 500;
+                    color: $color-cargo;
+                }
+            }
+        }
+
+        .sombra {
+            box-shadow: $shadow-card;
+            transition: 0.5s;
+        }
+    }
+
+    .fundador {
+        max-width: 800px;
+    }
+}
+
+.espacio {
+    margin: 80px auto;
+
     .titulo {
         text-transform: uppercase;
-        font-weight: bold;
+        text-align: center;
     }
-    .descripcion {
-        font-size: 20px;
+
+    .description {
+        text-align: center;
     }
 }
 
 
-.card-founde {
-    padding: 0;
-    width: 60%;
-    height: 35vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    margin: 0 auto;
-    img {
-        width: 45%;
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        margin-left: 0;
-        border-radius: 20px 0 0 20px;
-        box-shadow:0 0 25px $gradient-uno;
-    }
-    .card-text {
-        padding: 25px;
-        text-align: start;
-        box-shadow:0 0 25px $gradient-uno;
-        background-color: $bg-card;
-        border-radius: 0 20px 20px 0;
-        margin-left: -30px;
-        text-align: center;
-    }
-    .card-h3 {
-        padding-bottom: 10px;
-        text-transform: capitalize;
-        color: $text-color-card;
-    }
-    .card-p {
-        letter-spacing: 0.8px;
-        color: $text-color-card;
-    }
 
+.sombra:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .main-section {
+        .flex-card {
+            align-items: center;
+            flex-direction: column;
+
+            .box-name {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .parrafo {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    }
 }

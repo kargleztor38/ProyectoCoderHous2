@@ -42,6 +42,25 @@ body {
 .ul-personal li {
     list-style: none;
 }
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: $color-text-footer;
+    }
+    .span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-contact {
+        flex-direction: column;
+    }
+}
 
 // SECCION IMAGENES GENERALES ( NO INDEX )
 
@@ -51,3 +70,6 @@ body {
     box-shadow: 15px 15px 30px rgba(46, 45, 45, 0.8);
 }
 
+.accion {
+    text-transform: uppercase;
+}
