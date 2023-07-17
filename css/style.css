@@ -6,6 +6,7 @@
 body {
   font-family: "Cabin", sans-serif;
   background-color: #a9a9a9;
+  overflow-x: hidden;
 }
 
 .linea-final {
@@ -188,6 +189,38 @@ body {
   filter: brightness(0.6);
 }
 
+.card {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.anima-left {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.anima-right {
+  animation: slide-in-right 0.5s;
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 .comentario {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6509803922), rgba(128, 128, 128, 0.6549019608)), url(../img/bg-comentario.jpg);
 }
